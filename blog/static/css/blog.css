@@ -4,6 +4,8 @@
     }
     body {
         padding-left: 15px;
+	text-decoration:none;
+	text-align:justify;
     }
    .page-header {
         background-color: #ff9400;
