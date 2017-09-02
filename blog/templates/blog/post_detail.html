@@ -15,7 +15,7 @@
     {% endif %}
     <h2>{{ post.title_short }}</h2>
     <h1>{{ post.title }}</h1>
-    <p>{{ post.text|truncatechars:200|linebreaksbr }}</p>
+    <p>{{ post.text|linebreaksbr }}</p>
 </div>
 <hr>
 <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Добавить комментарий</a>
